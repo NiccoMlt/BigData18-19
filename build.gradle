@@ -3,7 +3,7 @@ plugins {
     id 'com.github.johnrengelman.shadow' version '5.1.0'
 }
 
-group 'template.spark'
+group 'it.unibo.bd1819'
 version '1.0.0'
 
 // Versions enforced by Unversity environment
