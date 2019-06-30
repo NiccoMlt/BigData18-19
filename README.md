@@ -12,6 +12,12 @@ This template is aimed to use these software versions:
 
 These versions can be changed in the variables in the [build.gradle file](./build.gradle).
 
+## Scripts
+
+The [./scripts](https://github.com/NiccoMlt/BigData-18-19-scripts) subfolder is a Git submodule reference to my other repo.
+
+Clone this repo with `git clone --recursive` instead of plain `git clone` to fetch also the bash scripts.
+
 ## License
 ![GitHub](https://img.shields.io/github/license/niccomlt/Big-Data-18-19-VSCode-template.svg)
 
