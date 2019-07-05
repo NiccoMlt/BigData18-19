@@ -308,3 +308,4 @@ gradle-app.setting
 **/build/
 
 # End of https://www.gitignore.io/api/git,osx,java,scala,linux,macos,metals,gradle,windows,eclipse,intellij,visualstudiocode
+/.idea/markdown-navigator.xml
