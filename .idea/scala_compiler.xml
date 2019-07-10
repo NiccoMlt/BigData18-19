@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="Gradle 1" modules="bigdata-1819-exercised.main,bigdata-1819-exercised.test,bigdata-1819-exercises.e1-hadoop-hdfs.main,bigdata-1819-exercises.e1-hadoop-hdfs.test,bigdata-1819-exercises.e2-mapreduce.main,bigdata-1819-exercises.e2-mapreduce.test,bigdata-1819-exercises.main,bigdata-1819-exercises.test,spark-gradle-template.main,spark-gradle-template.test">
+    <profile name="Gradle 1" modules="bigdata-1819-exercises.e2-mapreduce.main,bigdata-1819-exercises.e2-mapreduce.test">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <parameters>

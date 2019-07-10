@@ -47,25 +47,8 @@ subprojects {
             testImplementation "org.scalatest:scalatest_$scalaBinaryVersion:$scalaTestVersion"
 
             testRuntimeOnly "org.scala-lang.modules:scala-xml_$scalaBinaryVersion:$scalaXmlVersion"
-
-//    implementation "org.apache.spark:spark-mllib_$scalaBinaryVersion:$sparkStandardVersion"
-//    implementation "org.apache.spark:spark-sql_$scalaBinaryVersion:$sparkVersion"
-//    implementation "org.apache.spark:spark-streaming-flume-assembly_$scalaBinaryVersion:$sparkStandardVersion"
-//    implementation "org.apache.spark:spark-graphx_$scalaBinaryVersion:$sparkVersion"
-//    implementation "org.apache.spark:spark-launcher_$scalaBinaryVersion:$sparkVersion"
-//    implementation "org.apache.spark:spark-catalyst_$scalaBinaryVersion:$sparkVersion"
-//    implementation "org.apache.spark:spark-streaming_$scalaBinaryVersion:$sparkVersion"
-//    implementation "org.apache.spark:spark-core_$scalaBinaryVersion:$sparkVersion"
-//
-//    implementation "org.apache.hadoop:hadoop-common:$hadoopVersion"
-//    implementation "org.apache.hadoop:hadoop-core:$hadoopCoreVersion"
-//    implementation "org.apache.hadoop:hadoop-hdfs:$hadoopVersion"
         }
     }
-}
-
-shadowJar {
-    zip64 true
 }
 
 wrapper {
