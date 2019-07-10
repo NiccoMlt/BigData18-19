@@ -1,0 +1,13 @@
+group 'it.unibo.bd1819.e3'
+version '1.0.0'
+
+dependencies {
+    implementation "org.apache.spark:spark-mllib_$scalaBinaryVersion:$sparkStandardVersion"
+    implementation "org.apache.spark:spark-sql_$scalaBinaryVersion:$sparkVersion"
+    implementation "org.apache.spark:spark-streaming-flume-assembly_$scalaBinaryVersion:$sparkStandardVersion"
+    implementation "org.apache.spark:spark-graphx_$scalaBinaryVersion:$sparkVersion"
+    implementation "org.apache.spark:spark-launcher_$scalaBinaryVersion:$sparkVersion"
+    implementation "org.apache.spark:spark-catalyst_$scalaBinaryVersion:$sparkVersion"
+    implementation "org.apache.spark:spark-streaming_$scalaBinaryVersion:$sparkVersion"
+    implementation "org.apache.spark:spark-core_$scalaBinaryVersion:$sparkVersion"
+}
