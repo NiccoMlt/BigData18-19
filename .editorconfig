@@ -16,11 +16,17 @@ trim_trailing_whitespace = false
 indent_size = 2
 indent_style = space
 
+# Gradle files are treated with the same rules of Java/Groovy
+[*.{java,gradle}]
+indent_size = 4
+indent_style = space
+
+# Scala has a different convention than Java 
 [*.scala]
 indent_size = 2
 indent_style = space
 
-# Gradle files are treated with the same rules of Java/Groovy
-[*.{java,gradle}]
-indent_size = 4
+# Markdown is preferred with 2 space indent
+[*.md]
+indent_size = 2
 indent_style = space

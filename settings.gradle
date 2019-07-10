@@ -1,1 +1,7 @@
+include ':exercises/E1-Hadoop-HDFS'
+findProject(':exercises/E1-Hadoop-HDFS').name = 'e1-hadoop-hdfs'
+
+include ':exercises/E2-MapReduce'
+findProject(':exercises/E2-MapReduce').name = 'e2-mapreduce'
+
 rootProject.name = 'bigdata-1819-exercises'

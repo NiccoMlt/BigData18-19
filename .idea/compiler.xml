@@ -4,6 +4,10 @@
     <bytecodeTargetLevel>
       <module name="bigdata-1819-exercised.main" target="1.7" />
       <module name="bigdata-1819-exercised.test" target="1.7" />
+      <module name="bigdata-1819-exercises.e1-hadoop-hdfs.main" target="1.7" />
+      <module name="bigdata-1819-exercises.e1-hadoop-hdfs.test" target="1.7" />
+      <module name="bigdata-1819-exercises.main" target="1.7" />
+      <module name="bigdata-1819-exercises.test" target="1.7" />
       <module name="spark-gradle-template.main" target="1.7" />
       <module name="spark-gradle-template.test" target="1.7" />
     </bytecodeTargetLevel>
